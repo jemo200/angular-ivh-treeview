@@ -55,11 +55,11 @@ angular.module('ivh.treeview').directive('ivhTreeviewCheckboxHelper', [function(
       });
     },
     template: [
-      '<input type="checkbox"',
+      '<md-checkbox aria-label="close"',
         'class="ivh-treeview-checkbox"',
         'ng-model="isSelected"',
         'ng-click="resolveIndeterminateClick()"',
-        'ng-change="trvw.select(node, isSelected)" />'
+        'ng-change="trvw.select(node, isSelected)" ></md-checkbox>'
     ].join('\n')
   };
 }]);
