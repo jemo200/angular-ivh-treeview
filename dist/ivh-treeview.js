@@ -56,7 +56,7 @@ angular.module('ivh.treeview').directive('ivhTreeviewCheckboxHelper', [function(
     },
     template: [
       '<md-checkbox aria-label="close"',
-        'class="ivh-treeview-checkbox"',
+        'class="ivh-treeview-checkbox md-primary"',
         'ng-model="isSelected"',
         'ng-click="resolveIndeterminateClick()"',
         'ng-change="trvw.select(node, isSelected)" ></md-checkbox>'
