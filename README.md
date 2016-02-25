@@ -5,6 +5,7 @@
 > A treeview for AngularJS with filtering, checkbox support, custom templates,
 > and more.
 
+
 ## Contents
 
 - [Getting Started](#getting-started)
