@@ -886,7 +886,7 @@ angular.module('ivh.treeview')
         node[selectedAttr] = true;
         node[indeterminateAttr] = false;
       } else {
-        node[selectedAttr] = false;
+        node[selectedAttr] = true;
         node[indeterminateAttr] = true;
       }
     };
